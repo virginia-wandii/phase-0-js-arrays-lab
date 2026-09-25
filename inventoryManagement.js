@@ -3,10 +3,10 @@ const products =["Laptop","Phone","Headphones","Monitor"];
   function logFirstProduct() {
   console.log(products[0]);
 }
-function addProduct(productName){
+function addProduct(productName) {
   products.push(productName);
 }
-function updateProductName(products,position) {
+function updateProductName(position,newName ) {
   products[position] = newName;
 }
 function removeLastProduct() {
